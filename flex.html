@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        border: 2px solid red;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        /* align-content: flex-start; */
+        gap: 3px;
+    }
+    .items{
+        background-color: rgb(0, 0, 0);
+        height: 33%;
+        width: 55px;
+        border: 3px solid rgb(17, 255, 176);
+        border-radius: 10px;
+    }
+    .i1{
+        /* flex-grow: 1; */
+        flex: 1 1 20vw;
+    }
+    .i2{
+        flex: 1 1 28vw;
+    }
+    .i3{
+        flex: 1 1 28vw;
+    }
+    .i4{
+        flex: 1 1 20vw;
+    }
+    .i5{
+        flex: 1 1 20vw;
+    }
+    .i6{
+        flex: 1 1 57vw;
+    }
+    .i7{
+        flex: 1 1 20vw;
+    }
+    .i8{
+        flex: 1 1 48vw;
+    }
+    .i9{
+        flex: 1 1 48vw;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="items i1"></div>
+        <div class="items i2"></div>
+        <div class="items i3"></div>
+        <div class="items i4"></div>
+        <div class="items i5"></div>
+        <div class="items i6"></div>
+        <div class="items i7"></div>
+        <div class="items i8"></div>
+        <div class="items i9"></div>
+    </div>
+</body>
+</html>
